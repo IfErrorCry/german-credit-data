@@ -1,16 +1,15 @@
-# german-credit-data
 # German Credit Risk Modeling
 
 This project focuses on analysis and modeling of the German Credit Data dataset for credit risk classification using various machine learning algorithms.
 
-## 📦 Dataset Overview
+## Dataset Overview
 
 The dataset classifies individuals as **good** or **bad** credit risks based on 20 features. It includes both categorical and numerical versions:
 
 - `german.data` — categorical attributes  
 - `german.data-numeric` — preprocessed version with numeric features
 
-📌 [Original source (UCI ML Repository)](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
+[Original source (UCI ML Repository)](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
 
 **Key characteristics:**
 - **Instances:** 1000  
@@ -20,14 +19,14 @@ The dataset classifies individuals as **good** or **bad** credit risks based on 
 - **Missing values:** No  
 - **Requires cost-sensitive modeling**
 
-## 📊 Project Goals
+## Project Goals
 
 - Build classification models to predict creditworthiness
 - Compare model performance with and without cost matrix
 - Analyze feature importance
 - Optimize model by reducing dimensionality
 
-## ✅ Key Findings
+## Key Findings
 
 ### 1. Best Performing Model — **Linear Discriminant Analysis (LDA)**
 - Accuracy: **81%**
@@ -61,7 +60,7 @@ KNN failed to identify high-risk clients and is not suitable for this task.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 - **LDA** is the best base model, but **Logistic Regression with cost matrix** is preferred when minimizing financial losses.
 - **Error cost matters more than raw accuracy** in credit scoring.
@@ -69,7 +68,7 @@ KNN failed to identify high-risk clients and is not suitable for this task.
 
 ---
 
-## 📁 Files
+## Files
 
 - `german.data-numeric` (99.6 KB)
 - `german.data` (77.9 KB)
@@ -78,6 +77,6 @@ KNN failed to identify high-risk clients and is not suitable for this task.
 
 ---
 
-## 📚 License
+## License
 
 Include a license if you want others to use or build on your work. MIT is a common open-source choice.
